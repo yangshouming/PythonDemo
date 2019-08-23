@@ -1,3 +1,10 @@
+'''
+@Description: In User Settings Edit
+@Author: your name
+@Date: 2019-08-21 17:57:11
+@LastEditTime: 2019-08-23 09:50:24
+@LastEditors: Please set LastEditors
+'''
 
 
 # -*- coding: UTF-8 -*-
