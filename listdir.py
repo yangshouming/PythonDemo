@@ -8,7 +8,7 @@
 import os
 import sys
 
-target_path = r'F:\SVN_RD\525-B18194A IntelligentLamp\2-Document\项目输出文档V01\受控版本v01-2019-10-28'  # windows下的路径
+target_path = r'F:\SVN_RD\525-C19214A IntelligentWardrobSystem\2-Document\1-软件\10-临时文件\首次整机调试'  # windows下的路径
 
 
 def my_listdir(dir_path):
@@ -17,7 +17,7 @@ def my_listdir(dir_path):
     print('files numbers is', len(dir_ls))  # 打印该目录下的文件数量
     file_dir_path = dir_path.replace('\\', '/')  # 将windows的路径分隔符转换成python的分隔符
 
-    myfile1 = open(file_dir_path+r'\listdir.txt', 'w+')  # 将文件名写入txt
+    myfile1 = open(file_dir_path+r'\文件说明.txt', 'w+')  # 将文件名写入txt
     for i in dir_ls:
         print(i)
         myfile1.writelines(str(i)+'\n')
