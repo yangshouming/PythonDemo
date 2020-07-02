@@ -2,13 +2,13 @@
 @Description: 获取目标目录下的文件名
 @Author: Stream
 @Date: 2019-10-22 15:11:30
-@LastEditTime: 2019-10-31 16:19:41
-@LastEditors: Please set LastEditors
+@LastEditTime: 2020-06-28 18:02:37
+@LastEditors: Stream
 '''
 import os
 import sys
 
-target_path = r'F:\SVN_RD\525-C19214A IntelligentWardrobSystem\2-Document\1-软件\10-临时文件\首次整机调试'  # windows下的路径
+target_path = r'F:\SVN_RD\525-C19059A WeatherStation\2-Document\1-软件\项目输出文档V01'  # windows下的路径
 
 
 def my_listdir(dir_path):
